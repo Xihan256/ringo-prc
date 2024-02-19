@@ -1,0 +1,12 @@
+server:
+  port: 8090
+
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 10.164.164.164:10084
+      config:
+        server-addr: 10.164.164.164:10084
+        import-check:
+          enabled: false
