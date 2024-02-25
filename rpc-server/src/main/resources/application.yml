@@ -10,3 +10,6 @@ spring:
         server-addr: 10.164.164.164:10084
         import-check:
           enabled: false
+
+scut-rpc:
+  server-port: 8192
